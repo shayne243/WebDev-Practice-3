@@ -1,3 +1,44 @@
 @import url("https://fonts.googleapis.com/css?family=Piedra");
 @import url("https://fonts.googleapis.com/css?family=Satisfy");
 @import url("https://fonts.googleapis.com/css?family=Sriracha");
+
+body {
+    background: #FE654F;
+}
+header {
+    text-align: center;
+}
+header h1{
+    font-size: 40px;
+    font-family: Piedra;
+    text-transform: uppercase;
+}
+#header-img {
+    width: 150px;
+    height: 150px;
+}
+nav {
+    font-family: Satisfy;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul li{
+    list-style-type: none;
+    border: black;
+    background-color: rgba(254, 209, 140, 0.5);
+    font-size: 25px;
+}
+nav ul li a{
+    color: Black;
+}
+form {
+    font-family: Sriracha;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    margin: auto;
+}
