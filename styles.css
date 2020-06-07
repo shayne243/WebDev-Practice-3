@@ -9,7 +9,7 @@ header {
     text-align: center;
 }
 header h1{
-    font-size: 40px;
+    font-size: 60px;
     font-family: Piedra;
     text-transform: uppercase;
 }
@@ -52,6 +52,16 @@ form {
     margin: 5px;
     background-color: #D6EFFF;
 }
+#owners {
+    margin: auto;
+    display: block;
+    width: 333.33px;
+    height: 444.33px;
+}
+#video {
+    margin: auto;
+    display: block;
+}
 main {
     display: flex;
     flex-direction: column;
@@ -78,5 +88,8 @@ section h1{
 }
 section *{
     font-family: Sriracha;
+}
+#contact {
+    text-align: center;
 }
 
