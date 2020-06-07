@@ -48,7 +48,7 @@ form {
     margin: auto;
     padding: 3px;
 }
-#submit-btn {
+#submit {
     margin: 5px;
     background-color: #D6EFFF;
 }
@@ -91,5 +91,11 @@ section *{
 }
 #contact {
     text-align: center;
+}
+@media (max-width: 350px) {
+    section {
+        padding: 5px;
+        margin: 10px;
+    }
 }
 
